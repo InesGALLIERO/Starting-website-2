@@ -66,10 +66,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .bg-repeat {
@@ -96,7 +96,7 @@ a:hover {
 }
 
 .b-parallax {
-    background-attachment: fixed;
+    background-size: cover;
 }
 
 .d-bloc {
